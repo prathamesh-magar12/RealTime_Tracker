@@ -12,8 +12,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [], 
-  "author": "",
+  "author": "Prathamesh Magar",
   "license": "ISC",
-  "description": ""
+  "description": "This is the real-time tracking web-application."
 }
 
