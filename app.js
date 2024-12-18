@@ -1,4 +1,6 @@
-//"A Real-Time Tracker application built with Node.js, providing real-time updates and seamless tracking of data. Includes a user-friendly interface and efficient backend integration for smooth performance."
+//"A Real-Time Tracker application built with Node.js
+// providing real-time updates and seamless tracking of data. 
+// Includes a user-friendly interface and efficient backend integration for smooth performance."
 
 const express=require('express');
 const app=express();
