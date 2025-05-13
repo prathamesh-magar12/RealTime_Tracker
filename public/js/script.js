@@ -1,7 +1,5 @@
 const socket = io();
 
-console.log("hellow brother");
-
 if (navigator.geolocation) {
   navigator.geolocation.watchPosition(
     (position) => {
