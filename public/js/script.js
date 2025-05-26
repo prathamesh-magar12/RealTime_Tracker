@@ -18,11 +18,9 @@ if (navigator.geolocation) {
 }
 
 const map = L.map("map").setView([0, 0], 20);
-
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "OpenStreetMap",
 }).addTo(map);
-
 const markers = {};
 
 socket.on("receive-location", (data) => {
